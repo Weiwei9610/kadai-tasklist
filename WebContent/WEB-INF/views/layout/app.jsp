@@ -4,7 +4,7 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<title>メッセージボード</title>
+<title>タスクボード</title>
 </head>
 <body>
     <div id="wrapper">

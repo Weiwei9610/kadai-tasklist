@@ -6,14 +6,14 @@
     <c:param name="content">
         <c:choose>
             <c:when test="${Task !=null}">
-                <h2>id : ${Task.id} のメッセージ詳細ページ</h2>
+                <h2>id : ${Task.id} のタスク詳細ページ</h2>
 
                 <p>
                     タイトル :
                     <c:out value="${Task.title}" />
                 </p>
                 <p>
-                    メッセージ :
+                    タスク :
                     <c:out value="${Task.content}" />
                 </p>
                 <p>

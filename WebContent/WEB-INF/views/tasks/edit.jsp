@@ -3,7 +3,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <c:import url="../layout/app.jsp">
     <c:param name="content">
-        <h2>id : ${Task.id} のメッセージ編集ページ</h2>
+        <h2>id : ${Task.id} のタスク編集ページ</h2>
         <form method="post" action="${pageContext.request.contextPath}/update">
             <c:import url="_form.jsp" />
         </form>
@@ -12,7 +12,7 @@
             <a href="${pageContext.request.contextPath}/index">一覧に戻る</a>
         </p>
         <p>
-            <a href="#" onclick="confirmDestroy();">このメッセージを削除する</a>
+            <a href="#" onclick="confirmDestroy();">このタスクを削除する</a>
         </p>
         <form method="POST"
             action="${pageContext.request.contextPath}/destroy">
